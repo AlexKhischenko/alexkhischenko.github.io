@@ -29,7 +29,7 @@ const nameField = document.querySelector('#nameField');
 const passwordField = document.querySelector('#passwordField');
 const btnAdd = document.querySelector('#btnAdd');
 const newElements = document.querySelector('#newElements');
-console.log(myButton);
+// console.log(myButton);
 
 // Функция выводит в консоль данные, которые ввел пользователь через prompt (задействована const myButton = document.querySelector('#myBtn')
 // function greet () {
@@ -98,10 +98,11 @@ function login () {
 }
 
 
-btnAdd.onclick = addElement;
+
 function addElement () {
     const newElement = document.createElement('div');
     console.log(newElement);
     newElement.innerHTML = 'Hello world';
     newElements.appendChild(newElement);
 }
+btnAdd.onclick = addElement;
