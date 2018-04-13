@@ -49,7 +49,7 @@ const newElements = document.querySelector('#newElements');
 //         myOutput.textContent = data;
 //     }
 //     else {
-//         console.log("Invalid data");
+//         myOutput.textContent = "Invalid output";
 //     }
 // }
 
